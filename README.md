@@ -1,5 +1,5 @@
-# landing-page-fitness
-landing page for sell product fitness (Php7:pdo,Mysql)
+# Landing-page-fitness
+Landing page for sell product fitness (Php7:pdo,Mysql)
 
 Project Landing page sell product fitness with Control Board(Cpanel) for admin 
 
