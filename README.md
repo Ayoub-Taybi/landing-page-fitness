@@ -1,5 +1,5 @@
 # landing-page-fitness
-landing page for sell product fitness (Php:pdo,Mysql)
+landing page for sell product fitness (Php7:pdo,Mysql)
 
 1 - Create your database in phpMyadmin
 
