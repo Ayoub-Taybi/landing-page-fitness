@@ -1,0 +1,535 @@
+    /*----------- reset ---------------*/
+    .btn-primary {
+        background: #00c2e8;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        margin: auto;
+        box-shadow: 0 0px 10px #00bfe5;
+        border: none;
+        padding: 0.8rem 2.7rem;
+    }
+
+    .btn-primary:hover {
+        color: #00c2e8;
+        background: #fff;
+    }
+
+    /*----------- end reset ---------------*/
+
+    /*----------- navbar ---------------*/
+    .navbar {
+        background: #000;
+        padding: 20px;
+    }
+    .navbar-light .navbar-brand{
+        color:#fff;
+        font-weight:bold;
+        font-size:30px;
+    }
+    .navbar-light .navbar-brand:hover{
+        color:#fff;
+    }
+    .navbar-brand svg path{
+        fill:#00c2e8;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+
+    .icon-toggler {
+        background: #00c2e8;
+        width: 25px;
+        height: 2px;
+        display: block;
+        margin: 4px 0px;
+    }
+
+    #buy-now {
+        background: #00c2e8;
+        color: #fff;
+        width: 130px;
+        text-align: center;
+        border-radius: 3px;
+        margin: auto;
+        box-shadow: 0 0px 10px #00bfe5;
+        border: none;
+    }
+
+    #buy-now:hover {
+        color: #00c2e8;
+        background: #fff;
+    }
+
+    @media(max-width:992px) {
+        .navbar {
+            background: #1a1a1a;
+        }
+    }
+
+    /*----------- end navbar --------------*/
+
+    /*----------- header --------------*/
+    .header {
+        background: url('../img/header.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 130px 0px;
+    }
+
+    .header .header-content h2 {
+        color: #fff;
+        font-size: 72px;
+        max-width: 700px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .header .header-content p {
+        color: #fff;
+        max-width: 450px;
+        margin: 40px 0px 30px 0px;
+        line-height: 30px;
+        margin: 40px 0 20px 0;
+        font-size: 18px;
+    }
+
+    @media(max-width:768px) {
+        .header {
+            text-align: center;
+        }
+
+        .header .header-content h2 {
+            font-size: 50px;
+        }
+
+        .header .header-content p {
+            margin: 20px auto 20px auto;
+        }
+    }
+
+    @media(max-width:552px) {
+        .header .header-content h2 {
+            font-size: 35px;
+            max-width: 800px;
+        }
+    }
+
+    /*----------- end header --------------*/
+/*----------- feature boxed --------------*/
+.feature-boxed{
+    padding:100px 0px;
+    background-color: #1a1a1a;
+}
+.feature-boxed .feature-content{
+    margin-bottom:50px;
+}
+
+.feature-boxed .feature-content h5{
+    color:#fff;
+}
+.feature-boxed .feature-content h3{
+    color:#00c2e8;
+    font-size:34px;
+}
+.feature-boxed .feature-content p{
+    color:#fff;
+    max-width: 450px; 
+    margin:10px auto;
+}
+.feature-boxed .feature-item{
+    background:#000;
+    padding:40px 25px 20px 25px;
+}
+.feature-boxed .feature-item svg{
+     fill:#00c2e8;
+ }
+.feature-boxed .feature-item i{
+    color:#fff;
+    margin-bottom:20px;
+}
+.feature-boxed .feature-item #arrow{
+    margin-top:50px;
+    display:block;
+    text-align:right;
+}
+.feature-boxed .feature-item h4{
+    color:#fff;
+    font-size:18px;
+}
+.feature-boxed .feature-item p{
+    color:#ddd;
+    font-size:14px;
+}
+/*----------- end feature boxed --------------*/
+
+    /*-----------feature  --------------*/
+    .feature {
+        background: #000;
+        padding: 100px 0px 20px 0px;
+    }
+
+    .feature .feature-content {
+        margin-top: 100px;
+    }
+
+    .feature .feature-content h3 {
+        font-size: 33px;
+        color: #fff;
+    }
+
+    .feature .feature-content p {
+        font-size: 14px;
+        color: #ddd;
+        margin: 20px 0px;
+    }
+
+    .feature-img {
+        text-align: center;
+    }
+
+    .feature-img img {
+        width: 80%;
+    }
+
+    @media(max-width:992px) {
+        .feature .feature-content {
+            margin-top: 21px;
+        }
+
+        .feature-img img {
+            width: 100%;
+        }
+    }
+
+    @media(max-width:768px) {
+        .feature .feature-content {
+            margin-top: 60px;
+        }
+
+        .feature-img img {
+            width: 100%;
+            margin: 30px auto;
+        }
+    }
+
+    @media(max-width:552px) {
+        .feature-img img {
+            width: 80%;
+        }
+    }
+
+    /*----------- end feature  --------------*/
+
+    /*----------- video --------------*/
+    .bg-video{
+        width:50%;
+        position: relative;
+    }
+    .bg-video i{
+        color:#fff;
+        background:#00bfe5 ;
+        position: absolute;
+        left:50%;
+        top:40%;
+        width:60px;
+        height:60px;
+        line-height:60px;
+        border-radius:50px;
+        text-align:center;
+        font-size:18px;
+        box-shadow:0 0px 10px #00bfe5;
+    }
+
+    .video-content {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        background: #1a1a1a;
+        padding: 100px 0px;
+    }
+
+    .video-content h3 {
+        font-size: 33px;
+        color: #fff;
+    }
+
+    .video-content p {
+        font-size: 14px;
+        margin: 20px 0px;
+        color: #ddd;
+    }
+
+    .video-header {
+        max-width: 470px;
+    }
+
+    @media(max-width:768px) {
+        .bg-video {
+            display: none;
+        }
+
+        .video-content {
+            width: 100%;
+        }
+
+        .video-header {
+            max-width: 100%x;
+        }
+    }
+
+    /*----------- end video --------------*/
+
+    /*----------- about --------------*/
+    .about {
+        padding: 300px 0px;
+        background: url('../img/cta.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .about .about-content {
+        color: #fff;
+    }
+
+    .about .about-content h3 {
+        font-size: 33px;
+    }
+
+    .about .about-content p {
+        margin: 20px 0px;
+    }
+
+    @media(max-width:552px) {
+        .about .about-content h3 {
+            font-size: 28px;
+        }
+    }
+
+    /*----------- end about --------------*/
+
+    /*----------- price --------------*/
+    .price {
+        background: #1a1a1a;
+        padding: 100px 0px;
+    }
+
+    .price img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .price .price-content {
+        margin-top: 100px;
+    }
+
+    .price .price-content h3 {
+        color: #00c2e8;
+        font-size: 33px;
+    }
+
+    .price .price-content p {
+        color: #fff;
+        margin: 20px 0px;
+    }
+
+    @media(max-width:992px) {
+        .price .price-content {
+            margin-top: 30px;
+        }
+
+        .price img {
+            width: 100%;
+        }
+    }
+
+    @media(max-width:552px) {
+        .price .price-content {
+            margin-top: 30px;
+        }
+
+        .price-img {
+            text-align: center;
+        }
+
+        .price-img img {
+            width: 80%;
+        }
+    }
+
+    /*----------- end price --------------*/
+
+
+
+    /*----------- send form  --------------*/
+    .send-form {
+        background: #000;
+        padding: 100px 0 50px 0;
+    }
+
+    .send-form form {
+        background: #1a1a1a;
+        padding: 50px 40px;
+        width: 40%;
+        margin: auto;
+    }
+
+    .send-inner h2 {
+        font-size: 33px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 1.3;
+        margin-top: 40px;
+    }
+
+    .send-inner p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #FFFFFF;
+        width: 50%;
+        margin: 20px auto 60px auto;
+    }
+
+    .send-form input,
+    .send-form textarea {
+        background: #212121;
+        border: none;
+        color: #fff;
+    }
+
+    .send-form input {
+        padding: 30px 15px;
+    }
+
+    .send-form textarea {
+        padding-top: 20px;
+    }
+
+    .send-form input:focus,
+    .send-form textarea:focus {
+        background: #212121;
+        border: 1px solid #666;
+        color: #fff;
+    }
+
+    .send-form button {
+        color: #fff;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    .send-form form h2 {
+        font-size: 23px;
+        color: #fff;
+        margin-bottom: 30px;
+        line-height: 1.3;
+    }
+
+    @media(max-width:992px) {
+        .send-form form {
+            width: 60%;
+        }
+    }
+
+    @media(max-width:552px) {
+        .send-form form {
+            width: 98%;
+        }
+
+        .send-form form {
+            padding: 50px 20px;
+        }
+
+        .send-inner h2 {
+            font-size: 25px;
+        }
+
+        .send-form form h2 {
+            font-size: 18px;
+        }
+
+        .send-inner p {
+            width: 90%;
+        }
+    }
+
+    /*----------- end send form  --------------*/
+
+    /*----------- whats button  --------------*/
+    .whatsapp-button i {
+        cursor: pointer;
+        position: fixed;
+        background: #27ae60;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+    }
+
+    /*----------- notification  --------------*/
+    .notification-item {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        margin-top: 10px;
+        display: flex;
+        visibility: hidden;
+        background: #fff;
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06) !important;
+        animation-name: notif;
+        animation-duration: 4s;
+        border-radius:5px;
+    }
+    .notification-item img{
+        border-radius:5px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06) !important;
+    }
+    .notification-content{
+        margin-left:10px;
+    }
+    .notification-item p{
+        margin-bottom:2px;
+    }
+    @keyframes notif {
+        from {
+            bottom: 0;
+            opacity: 0;
+        }
+
+        to {
+            bottom: 20px;
+            opacity: 1;
+        }
+    }
+
+    .notification-content {
+        padding: 7px 0px 0px 0px;
+    }
+
+    .title-notification {
+        font-size: 13px;
+    }
+
+    .notification-item p {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 11px;
+    }
+
+    .time-notification {
+        text-align: right;
+        font-size: 13px;
+        color: #999;
+    }
