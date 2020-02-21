@@ -76,11 +76,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Déchargement des données de la table `users`
---
-
-INSERT INTO `users` (`UserID`, `UserName`, `email`, `password`) VALUES
-(4, 'ayoub taybi', 'taybi.ayoub04@gmail.com', '782dd27ea8e3b4f4095ffa38eeb4d20b59069077');
 
 -- --------------------------------------------------------
 
